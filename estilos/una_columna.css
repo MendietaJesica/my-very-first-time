@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #093452f3;
+}
+.container {
+    width: 1200px;
+    background-color: #7CDBD5;
+    margin: 10px auto;
+}
+.superior { 
+    background-color: #7CDBD5;
+    overflow: hidden;
+    height: 180px;
+    margin: auto;
+    width: 1200px;
+}
+#menu {
+    float: left; 
+    padding: 25px;
+    margin-left: 50px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #7CDBD5;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+/* items del menu */
+#menu ul li {
+     background-color: #186fa8f3;
+     border: 1px solid white;
+}
+/* enlaces del menu*/
+#menu ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight:400;
+    font-size: 15px;
+    padding: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-family: 'Delius', cursive;
+}
+/*items del menu*/
+#menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/*efecto al pasar el ratón por los items del menu*/
+#menu ul li:hover {
+    background: #e91cdf;
+}
+/*menu desplegable*/
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+}
+/* items del menu desplegable*/
+#menu ul ul li {
+    float: none;
+    width: 150px;
+}
+/* enlaces de los items del menu desplegable*/
+#menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+/* items del menu desplegable al pasar el raton*/
+#menu ul li:hover > ul {
+    display: block;
+}
+/* fin del menu*/
+
+#titulo {
+    text-align: center;
+    padding:10px 0;
+    color: #F53240;
+    font-size: 25px;
+    background-color: white;
+    font-family: 'Rye', cursive;
+}
+/*estilos para el cuerpo*/
+
+.cuerpo {
+    overflow: hidden;
+    height: 1900px;
+    background-color: #02C8A7;
+    padding-top: 80px;
+}
+.caja { 
+    width: 1000px;
+    height: 1000px;
+    margin:8px;
+}
+
+.subtitulo { 
+    border: 3px solid #ac16a4;
+    border-bottom: none;
+    background-color:  #7CDBD5;
+    border-radius: 5px;
+}
+.categorias {
+    color: rgb(66, 6, 66);
+    text-align: center;
+    padding: 5px 0;
+    background-color: #f31e77f3;
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    border-radius: 5px;
+}
+.efecto:hover {
+    opacity: 0.7;
+    cursor:pointer
+}
+.contenido {
+    padding: 50px;
+    text-align: left;
+    border: 3px solid  #ac16a4;
+    border-top: none;
+    background-color:linen;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    height: 1300px;
+}
+
+#contenido_ {
+    padding: 50px;
+    text-align: left;
+    border: 3px solid  #ac16a4;
+    border-top: none;
+    background-color:linen;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    height: 700px;
+}
+
+#contenido_folk {
+    padding: 50px;
+    text-align: left;
+    border: 3px solid  #ac16a4;
+    border-top: none;
+    background-color:linen;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    height: 500px;
+}
+#contenido_corto_
+{
+    padding: 50px;
+    text-align: left;
+    border: 3px solid  #ac16a4;
+    border-top: none;
+    background-color:linen;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    height: 400px;
+}
+#contenido_corto {
+    padding: 50px;
+    text-align: left;
+    border: 3px solid  #ac16a4;
+    border-top: none;
+    background-color:linen;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    height: 300px;
+}
+.boton {
+    padding: 15px;
+    margin-bottom: auto;
+    background: #F9BE02;
+    color: BLACK;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.boton:hover{
+    background:  #ac16a4;
+    cursor: pointer;
+}
+.pie {
+     background-color: #7CDBD5;
+     text-align: center;
+     color: #020fc8;
+     padding: 10px;
+}
+.pie.boton #menu {
+    font-family: 'Delius', cursive;
+    font-style: bold;
+}
